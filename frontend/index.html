@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Twitter Sentiment Analyzer</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1>Twitter Sentiment Analysis</h1>
+
+<div class="input-box">
+
+<input type="text" id="tweet" placeholder="Type a tweet here...">
+
+<button onclick="analyze()">Analyze</button>
+
+</div>
+
+<h2>Sentiment Meter</h2>
+
+<div class="meter">
+
+<div class="needle" id="needle"></div>
+
+<div class="center">
+
+<div id="emoji">😐</div>
+<div id="percent">0%</div>
+
+</div>
+
+</div>
+
+<div class="sentiment-result" id="result">
+
+<h2 id="sentimentText">Neutral</h2>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
